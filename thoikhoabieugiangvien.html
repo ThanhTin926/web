@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/cacquydinh.css">
+    <link rel="stylesheet" href="./css/thoikhoabieugiangvien.css">
 </head>
 <body>
     <!--Header-->
     <header class="header">
         <!--Logo-->
-        <img class="header__logo" src="/image/logoQuyNhon.jpg">
+        <img class="header__logo" src="./image/logoQuyNhon.jpg">
 
         <nav class="header__nav">
             <!--Bên trái-->
@@ -40,7 +40,44 @@
         <!--Content-->
         <div class="main__content">
             <div class="main__content-title">
-                <p>Các quy định</p>
+                <p>Thời Khóa Biểu Giảng Viên</p>
+            </div>
+
+            <div class="main__content-select">
+                <div class="main__content-select-items">
+                    Năm học:
+                    <select name="year" id="year">
+                        <option value="nam1">2020-2021</option>
+                        <option value="nam2">2021-2022</option>
+                        <option value="nam3">2022-2023</option>
+                        <option value="nam4">2023-2024</option>
+                    </select>
+                </div>
+    
+                <div class="main__content-select-items">
+                    Học kỳ:
+                    <select name="semester" id="semester">
+                        <option value="hk1">Học kỳ 1</option>
+                        <option value="hk2">Học kỳ 2</option>
+                        <option value="hk3">Học kỳ 3</option>
+                        <option value="hk4">Học kỳ 4</option>
+                    </select>
+                </div>
+    
+                <div class="main__content-select-items">
+                    Khoa:
+                    <select name="department" id="department">
+                        <option value="k1">Khoa 1</option>
+                        <option value="k2">Khoa 2</option>
+                        <option value="k3">Khoa 3</option>
+                        <option value="k4">Khoa 4</option>
+                    </select>
+                </div>  
+                
+                <div class="main__content-select-items">
+                    <input type="text" placeholder="Mã CBGV hoặc họ tên">
+                    <button class="find" type="button">Lọc dữ liệu</button>
+                </div>
             </div>
         </div>
     </main>
