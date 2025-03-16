@@ -18,14 +18,14 @@ a {
 }
 
 .header {
-    width:76vw;
+    max-width: 1160px;
     margin-left:auto;
     margin-right: auto;
 }
 
 .header__logo {
-    width:76vw;
-    height:auto;
+    max-width:100%;
+    height: auto;
 }
 
 .header__nav {
@@ -63,7 +63,7 @@ a {
 
 /*Thân*/
 .main {
-    width:76vw;
+    max-width: 1160px;
     display:flex;
     justify-content: space-between;
     margin-left:auto;
@@ -124,10 +124,12 @@ a {
 
 /* Footer*/
 .footer {
-    width:76vw;
+    max-width: 1160px;
     margin-left:auto;
     margin-right: auto;
     margin-top:100px;
+    margin-left: 5px;
+    margin-right: 5px;;
     border-top: 2px solid;
     padding-top:10px;
     display:flex;

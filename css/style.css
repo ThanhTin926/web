@@ -4,28 +4,34 @@
 }
 
 * {
-    margin:0;
     padding:0;
-
+    margin:0;
+    /* Font chữ, size chữ */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
+
+}
+
+body {
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Thiết lập cho thẻ a*/
 a {
     color: #fff;
-    text-decoration: none;;
+    text-decoration: none;
 }
 
 .header {
-    width:76vw;
-    margin-left:auto;
-    margin-right: auto;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .header__logo {
-    width:76vw;
-    height:auto;
+    max-width:100%;
+    height: auto;
 }
 
 .header__nav {
@@ -37,7 +43,6 @@ a {
 /* style cho nav left*/
 .header__nav-left {
     display:flex;
-
     padding:8px 0;
 }
 
@@ -48,7 +53,6 @@ a {
 /* style cho nav right*/
 .header__nav-right {
     display:flex;
-
     padding:8px 0;
 }
 
@@ -63,11 +67,11 @@ a {
 
 /*Thân*/
 .main {
-    width:76vw;
+    max-width: 1160px;
+    margin-left: 5px;
+    margin-right: 5px;
     display:flex;
     justify-content: space-between;
-    margin-left:auto;
-    margin-right: auto;
 }
 
 .main__sidebar {
@@ -124,10 +128,10 @@ a {
 
 /* Footer*/
 .footer {
-    width:76vw;
-    margin-left:auto;
-    margin-right: auto;
+    max-width:1160px;
     margin-top:100px;
+    margin-left: 5px;
+    margin-right: 5px;;
     border-top: 2px solid;
     padding-top:10px;
     display:flex;
