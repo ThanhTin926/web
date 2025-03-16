@@ -1,3 +1,8 @@
+/*Biến*/
+:root {
+    --background-color: #00568f;
+}
+
 * {
     margin:0;
     padding:0;
@@ -12,14 +17,6 @@ a {
     text-decoration: none;;
 }
 
-html {
-    
-}
-
-body {
-
-}
-
 .header {
     width:76vw;
     margin-left:auto;
@@ -32,7 +29,7 @@ body {
 }
 
 .header__nav {
-    background-color: dodgerblue;
+    background-color: var(--background-color);
     display:flex;
     justify-content:space-between;
 }
@@ -78,7 +75,7 @@ body {
 }
 
 .main__sidebar-items {
-    background-color: dodgerblue;
+    background-color: var(--background-color);
     margin-top:5px;
     padding:8px 0;
 } 
@@ -92,7 +89,7 @@ body {
 }
 
 .main__content-title {
-    background-color: dodgerblue;
+    background-color: var(--background-color);
     padding:8px 0 8px 10px;
     margin-top:5px;
 }
@@ -133,9 +130,6 @@ body {
     padding-top:10px;
     display:flex;
     justify-content: space-between;
-}
-.footer__left {
-
 }
 
 .footer__left a {
