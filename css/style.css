@@ -172,3 +172,22 @@ a:hover {
         flex-direction: column;
     }
 }
+
+/*Cho trang thời khóa biểu giảng viên*/
+.main__content-title p {
+    color:#fff;
+}
+
+.main__content-select {
+    display:flex;
+    align-items: center;
+    margin-top:8px;
+}
+
+.main__content-select-items {
+    margin-right: 5px;
+}
+
+.main__content-select-items:last-child input {
+    padding:5px 0;
+}

@@ -49,3 +49,14 @@ body {
     background-color: #333;
     color:#fff;
 }
+
+
+@media only screen and (max-width:740px) {
+    .form_login {
+        flex-direction: column;
+    }
+
+    .form_login__image {
+        display:none;
+    }
+}
