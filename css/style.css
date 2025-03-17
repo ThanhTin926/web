@@ -24,6 +24,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color:#2f9af7;
+}
+
 .header {
     margin-left: 5px;
     margin-right: 5px;
@@ -35,6 +39,7 @@ a {
 }
 
 .header__nav {
+    height:40px;
     background-color: var(--background-color);
     display:flex;
     justify-content:space-between;
@@ -155,4 +160,15 @@ a {
 
 .footer__right-items a {
     color: royalblue;
+}
+
+/*-----------------------------------------------------*/
+@media only screen and (max-width: 740px) {
+    .header__nav ul {
+        display:none;
+    }
+
+    .main {
+        flex-direction: column;
+    }
 }

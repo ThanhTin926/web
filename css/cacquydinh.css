@@ -17,6 +17,9 @@ a {
     text-decoration: none;;
 }
 
+a:hover {
+    color:#2f9af7;
+}
 
 .header {
     max-width: 1160px;
