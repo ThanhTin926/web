@@ -89,10 +89,6 @@ body {
     flex-basis:79%; /*Thay đổi kích thước nội dung chính của phần thân*/
 }
 
-.main__content a {
-    color: var(--font-color);
-}
-
 .main__content-title {
     background-color: var(--background-color);
     padding:8px 0 8px 10px;
@@ -151,33 +147,4 @@ body {
         margin-bottom: 20px !important;
     }
 
-}
-
-/*index.html*/
-.main__content-content-items-date {
-    color: darkgray;
-    text-align: right;
-}
-
-.main__content-content-items, .main__content-number_of_page {
-    margin: 0 8px
-}
-
-.main__content-number_of_page {
-    font-weight: bold;
-}
-
-/*thoikhoabieugiangvien.html*/
-.main__content-select {
-    display: flex;
-    margin-top: 5px;
-}
-
-.main__content-select-items {
-    margin-left: 8px;
-    padding-right: 10px;
-}
-
-.main__content-select-items input {
-    padding: 5px 8px;
 }
